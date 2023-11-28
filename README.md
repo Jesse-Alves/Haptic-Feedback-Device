@@ -74,15 +74,15 @@ Keywords: ROS2 Humble, Robotics, Haptic Technology, Pantograph Robot Model, Virt
 
 <div align="center">
   <a href=" ">
-    <img src="images/img1.png" height="250" />
-    <img src="images/img2.png" height="250" />
-    <img src="images/img3.png" height="250" />
+    <img src="images/img1.png" height="150" />
+    <img src="images/img2.png" height="150" />
+    <img src="images/img3.png" height="150" />
   </a>
 </div>
 
 <div align="center">
   <a href=" ">
-    <img src="images/img4.jpg" height="250" />
+    <img src="images/img4.png" height="250" />
   </a>
 </div>
 
