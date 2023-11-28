@@ -109,8 +109,13 @@ Keywords: Rehabilitation, Post-Stroke, Robotic, FSR, Low-Cost.
 
 The Haptic loop is a collision model developed to be used in Haptic Device. It was developed in ROS2 Humble. 
 
+### Prerequisites
 
-### The Project files
+All this project was built in ROS2 Humble environment, using ROS2 Control.
+
+
+
+## The Project files
 
 * The haptic_description 
 
@@ -149,18 +154,13 @@ In this packages, inside of Scripts folder will be find:
  - Some important simulations were recorded using ROS bag, i.e., the topics in the simulation. It is possible to run this simulation using Plot Juggler.
 
 
-
-
-### Prerequisites
-
-All this project was built in ROS2 Humble environment, using ROS2 Control.
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
 1 - Unzip the file in ubuntu system.
+
 2 - Open the terminal in ubuntu inside of /src directory.
+
 3 - Run the code below to test.
 
 `colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release --symlink-install && source install/setup.bash && ros2 launch haptic_bringup haptic.launch.py`
