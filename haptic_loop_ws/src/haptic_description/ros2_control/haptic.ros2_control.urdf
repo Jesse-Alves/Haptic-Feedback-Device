@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<robot name = "haptic" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <ros2_control name="haptic" type="system">
+
+        <hardware>
+            <!--<plugin>scara_hardware/ScaraRobot</plugin> -->
+            <plugin>mock_components/GenericSystem</plugin>
+        </hardware>
+
+        <joint name="joint1">
+            <command_interface name="position" />
+            <state_interface name="position">
+                <param name="initial_value">0.7498</param>
+                <param name="min">-1.57</param>
+                <param name="max">1.57</param>
+            </state_interface>
+            <state_interface name="velocity"> 
+                <param name="initial_value">0.0</param> 
+            </state_interface>
+        </joint>
+        <joint name="joint2">
+            <command_interface name="position"/>
+            <state_interface name="position">
+                <param name="initial_value">2.0168</param>
+                <param name="min">-1.57</param>
+                <param name="max">1.57</param>
+            </state_interface>
+            <state_interface name="velocity"> 
+                <param name="initial_value">0.0</param> 
+            </state_interface>
+        </joint>
+        <joint name="joint3">
+            <command_interface name="position"/>
+            <state_interface name="position">
+                <param name="initial_value">0.7497</param>
+                <param name="min">0</param>
+                <param name="max">0.3</param>
+            </state_interface>
+            <state_interface name="velocity"> 
+                <param name="initial_value">0.0</param> 
+            </state_interface>
+        </joint>
+        <joint name="joint4">
+            <command_interface name="position" />
+            <state_interface name="position">
+                <param name="initial_value">-2.0168</param>
+                <param name="min">-1.57</param>
+                <param name="max">1.57</param>
+            </state_interface>
+            <state_interface name="velocity"> 
+                <param name="initial_value">0.0</param> 
+            </state_interface>
+        </joint>
+        <joint name="joint5">
+            <command_interface name="position" />
+            <state_interface name="position">
+                <param name="initial_value">2.3917</param>
+                <param name="min">-1.57</param>
+                <param name="max">1.57</param>
+            </state_interface>
+            <state_interface name="velocity"> 
+                <param name="initial_value">0.0</param> 
+            </state_interface>
+        </joint>
+
+    </ros2_control>
+
+</robot>

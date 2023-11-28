@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Haptic Device -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="haptic">
+
+    <!-- Import haptic urdf file -->
+    <xacro:include filename="$(find haptic_description)/urdf/haptic.urdf" />
+
+    <!-- Import haptic materials file -->
+    <xacro:include filename="$(find haptic_description)/config/materials.urdf" />
+
+    <!-- Import haptic ros2_control description -->
+    <xacro:include filename="$(find haptic_description)/ros2_control/haptic.ros2_control.urdf" />
+
+</robot>
