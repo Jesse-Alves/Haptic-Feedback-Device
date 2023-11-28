@@ -68,7 +68,6 @@ Keywords: ROS2 Humble, Robotics, Haptic Technology, Pantograph Robot Model, Virt
 </div>
 
 
-[(Full Videos)]()
 
 
 ### Robot Model in RVIZ
