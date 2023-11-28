@@ -61,7 +61,7 @@ Keywords: ROS2 Humble, Robotics, Haptic Technology, Pantograph Robot Model, Virt
 
 
 
-## Collision Model Simulation
+## Collision Model Simulation usign a Maze
 
 <div align="center">
     <img width="600" src="images/gif1.gif" alt="color picker" />
