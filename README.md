@@ -72,7 +72,7 @@ Keywords: Rehabilitation, Post-Stroke, Robotic, FSR, Low-Cost.
 [(Full Videos)]()
 
 
-### Robo Model in RVIZ
+### Robot Model in RVIZ
 
 <div align="center">
   <a href=" ">
