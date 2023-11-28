@@ -53,12 +53,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+In the context of ROS2 Humble, a project has been developed that converges robotics and sensory perception through the lens of haptic technology. At the heart of this exploration lies the haptic device, particularly the Pantograph robot model, serving as a bridge between human interaction and virtual environments. Haptic devices facilitate tactile feedback, enabling users to interact with digital spaces in ways that simulate real-world sensations. This project involves the creation of a collision model and a meticulously designed virtual environment within RVIZ to facilitate the Pantograph's tactile exploration. Utilizing forward and inverse kinematics (FKM and IKM), the research investigates the detection of the robot's end-effector, a crucial aspect in understanding its spatial presence. The project's zenith lies in torque computation, orchestrating motor forces to simulate haptic feedback. This endeavor aims to transform digital interaction into a palpable, immersive experience by amalgamating algorithms and sensory perception.
 
-Currently, robotics-assisted devices, such as exoskeleton and collaborative robotic arms, have been used for rehabilitation therapy. Where one of the biggest causes of the physical disability is stroke. However, despite the high benefits and potential of using these devices, the clinical application remains limited due mainly to the complexity and the high cost. Therefore, different strategies are used to overcome these limitations, such as the use of alternatives sensors and materials. In this context, this article presents the prototyping of a low cost and compact bracelet to detect the upper arm contraction using Force Sensing Resistor (FSR) and then, send the data from a cheap microcontroller to Robot Operating System (ROS2) environment.
+Keywords: ROS2 Humble, Robotics, Haptic Technology, Pantograph Robot Model, Virtual Environments, RVIZ.
 
-Keywords: Rehabilitation, Post-Stroke, Robotic, FSR, Low-Cost.
-
-[(Project Presentation)]()
+[(Project Presentation)](https://github.com/Jesse-Alves/Design-and-Simulation-of-a-Virtual-Environment-and-Collision-Model-for-the-Haptic-Device-Pantograph/blob/main/Haptic%20Loop%20-%20Final%20Presentation.pdf)
 
 
 
@@ -76,14 +75,14 @@ Keywords: Rehabilitation, Post-Stroke, Robotic, FSR, Low-Cost.
 
 <div align="center">
   <a href=" ">
-    <img src="images/img1.jpg" height="250" />
-    <img src="images/img2.jpg" height="250" />
+    <img src="images/img1.png" height="250" />
+    <img src="images/img2.png" height="250" />
+    <img src="images/img3.png" height="250" />
   </a>
 </div>
 
 <div align="center">
   <a href=" ">
-    <img src="images/img3.jpg" height="250" />
     <img src="images/img4.jpg" height="250" />
   </a>
 </div>
@@ -119,7 +118,7 @@ All this project was built in ROS2 Humble environment, using ROS2 Control.
 
 * The haptic_description 
 
-This package describe the Pantograph robot in URDF file, following the dimentions used for High Cost group and the base frame from article: "The Pantograph Mk-II: A Haptic Instrument, Gianni Campion, Student Member, IEEE, Qi Wang, Member, IEEE, and Vincent Hayward, Senior Member, IEEE"
+This package describe the Pantograph robot in URDF file, following the dimentions used for High Cost group and the base frame from article: ["The Pantograph Mk-II: A Haptic Instrument, Gianni Campion, Student Member, IEEE, Qi Wang, Member, IEEE, and Vincent Hayward, Senior Member, IEEE"](https://github.com/Jesse-Alves/Design-and-Simulation-of-a-Virtual-Environment-and-Collision-Model-for-the-Haptic-Device-Pantograph/blob/main/The%20Pantograph%20Mk-II%20A%20Haptic%20Instrument.pdf)
  
   
 * The haptic_bringup
